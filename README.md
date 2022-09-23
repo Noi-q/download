@@ -46,7 +46,7 @@ export default ()=>({
   download:{
     title:"安装",
     background:"#42B983",
-    url:"https://github.com/nest/nest-simulator/archive/refs/tags/v3.3.zip"
+    url:"https://github.com/***/**.zip"
   },
   // 举报
   report:{
