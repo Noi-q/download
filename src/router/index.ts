@@ -20,7 +20,8 @@ const defaultRoutes:RouteRecordRaw[] = [
 
 
 const router = createRouter({
-  history:createWebHistory("/download"),
+  // history:createWebHistory("/download"),
+  history:createWebHistory(),
   routes:[...defaultRoutes, ...syncRoute]
 })
 

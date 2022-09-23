@@ -11,6 +11,6 @@ export default defineConfig({
       '@': join(__dirname, "src"),
     }
   },
-  publicDir:'assets',
-  base:"/download/"
+  // publicDir:'assets',
+  // base:"/download/"
 })
