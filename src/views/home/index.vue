@@ -1,8 +1,6 @@
 <script lang="ts" setup>
-import {reactive, ref} from "vue";
 import {useRouter} from "vue-router"
 import {useLocalStore} from "../../pinia";
-import {onMounted} from "vue";
 import app from "@/config/app.config"
 import QrcodeVue from "qrcode.vue";
 import AppInfo from "@/components/appInfo.vue"
@@ -20,6 +18,7 @@ const download = (url: string)=>{
     }
   })
 }
+console.error(localStore.info)
 </script>
 
 <template>
